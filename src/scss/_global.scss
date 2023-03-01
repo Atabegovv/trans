@@ -36,6 +36,11 @@ input::-webkit-inner-spin-button {
 .wrapper{
   margin-top: 73px;
 }
+.container{
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 
 @keyframes rtl30px {
   from{
@@ -46,4 +51,17 @@ input::-webkit-inner-spin-button {
     transform: translateX(0);
     opacity: 1;
   }  
+}
+
+.title{
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #1A1A1A;
+
+  &__desc{
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+  }
 }

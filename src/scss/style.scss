@@ -14,11 +14,14 @@
 @import "./src/components/sections/exclusive/exclusive";
 @import "./src/components/sections/pluses/pluses";
 @import "./src/components/sections/know/know";
-@import "./src/components/sections/news/news";
+@import "./src/components/sections/index-news/index-news";
 @import "./src/components/sections/crumbs/crumbs";
 @import "./src/components/sections/catalog/catalog";
 @import "./src/components/sections/feedback/feedback";
 @import "./src/components/sections/profile/profile";
+@import "./src/components/sections/news-title/news-title";
+@import "./src/components/sections/news-content/news-content";
+
 
 // Components
 
@@ -36,3 +39,4 @@
 @import "../components/bem-blocks/products-xs-field/products-xs-field";
 @import "../components/bem-blocks/profile-feedback/profile-feedback";
 @import "../components/bem-blocks/create-feedback/create-feedback";
+@import "../components/bem-blocks/news-feedback/news-feedback";

@@ -4,4 +4,10 @@
   gap: 28px;
   max-width: 796px;
   width: 100%;
+  animation: rtl30px 0.5s ease;
+
+  display: none;
+  &.active{
+    display: flex;
+  }
 }

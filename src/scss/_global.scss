@@ -36,3 +36,14 @@ input::-webkit-inner-spin-button {
 .wrapper{
   margin-top: 73px;
 }
+
+@keyframes rtl30px {
+  from{
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }  
+}

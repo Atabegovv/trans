@@ -21,6 +21,7 @@
 @import "./src/components/sections/profile/profile";
 @import "./src/components/sections/news-title/news-title";
 @import "./src/components/sections/news-content/news-content";
+@import "./src/components/sections/news-single/news-single";
 
 
 // Components
@@ -40,3 +41,4 @@
 @import "../components/bem-blocks/profile-feedback/profile-feedback";
 @import "../components/bem-blocks/create-feedback/create-feedback";
 @import "../components/bem-blocks/news-feedback/news-feedback";
+@import "../components/bem-blocks/news-item/news-item";

@@ -1,0 +1,38 @@
+.news-item{
+  display: block;
+  background-color: #fff;
+  max-width: 880px;
+  padding: 20px 30px;
+  border-radius: 4px;
+  
+  &__title{
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    transition: all .3s ease;
+  }
+
+  &__time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #868686;
+
+    svg{
+      width: 13px;
+      height: 13px;
+      transition: all .3s ease;
+    }
+  }
+
+  &:hover{
+    .news-item__title{
+      color: #d92929;
+    }
+    svg{
+      transform: translateX(10px);
+    }
+  }
+}

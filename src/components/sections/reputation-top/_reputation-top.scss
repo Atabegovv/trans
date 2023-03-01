@@ -1,0 +1,67 @@
+.reputation-top{
+  padding-bottom: 50px;
+
+  & .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text{
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__btns{
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+
+    &-search{
+      width: 58px;
+      height: 58px;
+      border: 1px solid #CDCDCD;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        border-color: #DC1919;
+
+        svg{
+          fill: #DC1919;
+        }
+      }
+
+      svg{
+        width: 18px;
+        height: 18px;
+        fill: #C1C1C1;
+        transition: 0.2s;
+      }
+    }
+
+    &-create{
+      font-size: 14px;
+      line-height: 21px;
+      color: white;
+      width: 302px;
+      height: 58px;
+      padding: 19px 0;
+      border: 1px solid #DE2727;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #DE2727;
+      border-radius: 4px;
+
+      &:hover{
+        background: white;
+        color: #DC1919;
+      }
+    }
+  }
+}

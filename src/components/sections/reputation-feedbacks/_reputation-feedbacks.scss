@@ -1,0 +1,27 @@
+.reputation-feedbacks{
+  padding: 50px 0;
+  background-color: #f5f5f5;
+
+  & .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  &__items{
+    max-width: 830px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__experts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  & .pagination{
+    margin-left: 0;
+  }
+}

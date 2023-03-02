@@ -65,3 +65,37 @@ input::-webkit-inner-spin-button {
     color: #727272;
   }
 }
+
+.link-btn{
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  padding: 19px 0;
+  border: 1px solid #DE2727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DE2727;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover{
+    background: white;
+    color: #DC1919;
+  }
+}
+
+.btn-link{
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  color: #DC1919;
+  padding: 21px 78px;
+  border: 1px solid #DC1919;
+  border-radius: 4px;
+
+  &:hover{
+    color: white;
+    background: #DC1919;
+  }
+}

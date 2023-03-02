@@ -1,0 +1,22 @@
+.page-pluses{
+  padding: 40px 0;
+
+  & .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  &__item{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &-title{
+      font-size: 21px;
+      line-height: 26px;
+      font-weight: 600;
+    }
+  }
+}

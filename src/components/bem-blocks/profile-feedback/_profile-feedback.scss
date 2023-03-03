@@ -46,9 +46,21 @@
       font-size: 27px;
       line-height: 37px;
       font-weight: 600;
+      transition: .2s;
+
       svg{
         width: 22px;
         height: 21px;
+        fill: #C3C3C3;
+        transition: .3s;
+      }
+
+      &:hover{
+        color: #d92929;
+
+        svg{
+          fill: #d92929;
+        }
       }
     }
 

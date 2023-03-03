@@ -18,3 +18,16 @@ const swiper = new Swiper('.product__slider', {
   //   },
   // },
 });
+
+
+const zhk_swiper = new Swiper('.zhk-slider', {
+  navigation:{
+    prevEl: '.zhk-swiper-button-prev',
+    nextEl: '.zhk-swiper-button-next',
+  },
+  grabCursor: true,
+  spaceBetween: 30,
+  speed: 1000,
+  // freeMode: true,
+  slidesPerView: 1,
+});

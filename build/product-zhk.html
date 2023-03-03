@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Траст">
+	<meta name="keywords" content="Траст">
+	<link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Траст</title>
+</head>
+
+
+<body>
+<header class="header">
+    <div class="container">
+        <a href="/" class="logo">
+            <svg>
+                <use xlink:href="img/sprite.svg#logo"></use>
+            </svg>
+        </a>
+        <nav class="nav">
+            <button class="nav__item">Каталог недвижимости</button>
+            <a href="" class="nav__item">Ипотека</a>
+            <a href="" class="nav__item">О нас</a>
+            <a href="" class="nav__item">Карьера</a>
+            <a href="" class="nav__item">Отзывы</a>
+            <a href="" class="nav__item">Вакансии</a>
+            <a href="" class="nav__item">Прочее</a>
+        </nav>
+        <a href="" class="header__contacts">
+            Офисы и контакты
+        </a>
+    </div>
+</header>
+<main class="wrapper">
+	<aside class="mini-catalog">
+	<div class="container">
+		<div class="mini-catalog__item">
+			<a href="/" class="mini-catalog__item-link fat">Все квартиры</a>
+			<a href="/" class="mini-catalog__item-link fat">Квартиры в новостройке</a>
+			<a href="/" class="mini-catalog__item-link fat">Квартиры во вторичке</a>
+			<a href="/" class="mini-catalog__item-link fat">Акции и скидки </a>
+		</div>
+		<div class="mini-catalog__item">
+			<a href="/" class="mini-catalog__item-link">Квартиры студии</a>
+			<a href="/" class="mini-catalog__item-link">1-комнатные квартиры</a>
+			<a href="/" class="mini-catalog__item-link">2-комнатные квартиры</a>
+			<a href="/" class="mini-catalog__item-link">3-комнатные квартиры</a>
+			<a href="/" class="mini-catalog__item-link">4-комнатные квартиры </a>
+			<a href="/" class="mini-catalog__item-link">Квартиры в Воронеже </a>
+		</div>
+		<div class="mini-catalog__item">
+			<a href="/" class="mini-catalog__item-link">Квартиры на правом берегу</a>
+			<a href="/" class="mini-catalog__item-link">Квартиры на левом берегу</a>
+			<a href="/" class="mini-catalog__item-link">Квартиры в Железнодорожном р-не</a>
+			<a href="/" class="mini-catalog__item-link">Квартиры в Советском р-не</a>
+			<a href="/" class="mini-catalog__item-link">Квартиры в Ленинском р-не</a>
+			<a href="/" class="mini-catalog__item-link">Квартиры в Коминтерновском р-не</a>
+		</div>
+		<div class="mini-catalog__loyalty">
+			<p class="mini-catalog__loyalty-title">Программа лояльности</p>
+			<p class="mini-catalog__loyalty-desc">Вступайте в клуб,
+				получайте бонусы
+				и скидки</p>
+			<a href="/" class="mini-catalog__loyalty-button">
+				<svg>
+					<use xlink:href="img/sprite.svg#arrow_right"></use>
+				</svg>
+			</a>
+		</div>
+	</div>
+</aside>
+
+
+
+  <div class="product-top">
+    <div class="crumbs">
+      <a href="/" class="crumbs__item">Главная</a>
+      <a href="/" class="crumbs__item">База недвижимости</a>
+      <p class="crumbs__item">2-комн. квартиры в Воронеже до 4 700 000 млн руб.</p>
+    </div>
+    <div class="container">
+      <div class="product-top__left">
+        <h3 class="product-top__left-title title">2—комнатная квартира, 72 м2,  9/9 этаж</h3>
+        <p class="product-top__left-address">
+          р-н Железнодорожный, мкр. Боровое, ул. Сельская, 2М   
+          <a href="#" class="product-top__left-address_link">Показать карте</a>
+        </p>
+      </div>
+      <div class="product-top__right">
+        <p class="product-top__price-total title">13 750 000 ₽</p>
+        <p class="product-top__price-month">75 676 ₽ / м2</p>
+        <div class="product-top__actions">
+          <button class="product-top__actions-item">
+            <svg class="product-top__actions-item_svg">
+              <use xlink:href="img/sprite.svg#print"></use>
+            </svg>
+          </button>
+          <button class="product-top__actions-item">
+            <svg class="product-top__actions-item_svg">
+              <use xlink:href="img/sprite.svg#share"></use>
+            </svg>
+          </button>
+          <button class="product-top__actions-item">
+            <svg class="product-top__actions-item_svg">
+              <use xlink:href="img/sprite.svg#favorite"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="zhk-filter">
+    <div class="zhk-filter__item">
+      <p class="zhk-filter__item-name">Тип недвижимости</p>
+      <select class="zhk-filter__item-select">
+        <option value="" selected>Все квартиры </option>
+        <option value="">Все квартиры 2</option>
+        <option value="">Все квартиры 3</option>
+      </select>
+    </div>
+    <div class="zhk-filter__item">
+      <p class="zhk-filter__item-name">Комнатность</p>
+      <div class="zhk-filter__item-room">
+        <button class="zhk-filter__item-room_item">Студия</button>
+        <button class="zhk-filter__item-room_item">1</button>
+        <button class="zhk-filter__item-room_item">2</button>
+        <button class="zhk-filter__item-room_item">3</button>
+        <button class="zhk-filter__item-room_item">4+</button>
+      </div>
+    </div>
+    <div class="zhk-filter__item">
+      <p class="zhk-filter__item-name">Стоимость, Р</p>
+      <div class="zhk-filter__item-cost">
+        <input type="number" class="zhk-filter__item-cost_input" placeholder="от">
+        <input type="number" class="zhk-filter__item-cost_input" value="" placeholder="до">
+      </div>
+    </div>
+    <button class="catalog-filter__show">Показать 1778 предложений</button>
+  </div>
+
+
+  <div class="zhk-swiper">
+    <div class="container">
+      <div class="slider zhk-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide zhk-slider__slide">
+            <img src="img/xhk.webp" alt="zhk slider img" class="zhk-slider__img">
+          </div>
+          <div class="swiper-slide zhk-slider__slide">
+            <img src="img/xhk.webp" alt="zhk slider img" class="zhk-slider__img">
+          </div>
+          <div class="swiper-slide zhk-slider__slide">
+            <img src="img/xhk.webp" alt="zhk slider img" class="zhk-slider__img">
+          </div>
+        </div>
+
+        <div class="zhk-swiper-button-prev"></div>
+        <div class="zhk-swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="zhk-content">
+    <div class="container">
+
+      <div class="zhk-content-info">
+        <div class="zhk-content-info__item">
+          <p class="zhk-content-info__title">Срок сдачи</p>
+          <p class="zhk-content-info__value">4 кв. 2022</p>
+        </div>
+        <div class="zhk-content-info__item">
+          <p class="zhk-content-info__title">Тип дома</p>
+          <p class="zhk-content-info__value">монолит-кирпич</p>
+        </div>
+        <div class="zhk-content-info__item">
+          <p class="zhk-content-info__title">Срок сдачи</p>
+          <p class="zhk-content-info__value">4 кв. 2022</p>
+        </div>
+        <div class="zhk-content-info__item">
+          <p class="zhk-content-info__title">Тип дома</p>
+          <p class="zhk-content-info__value">монолит-кирпич</p>
+        </div>
+        <div class="zhk-content-info__item">
+          <p class="zhk-content-info__title">Срок сдачи</p>
+          <p class="zhk-content-info__value">4 кв. 2022</p>
+        </div>
+      </div>
+
+      <div class="zhk-content-text">
+        <div class="zhk-content-text__left">
+          <h4 class="zhk-content-text__left_title">О проекте</h4>
+          <div class="zhk-content-text__left_box">
+            <p>ЖК «Лайково» - уютный жилой комплекс в Одинцовском районе, всего в 12 км от МКАД, в окружении обширного Подушкинского лесопарка. Предлагаются на выбор удобные планировочные решения и редкие форматы квартир. Во дворах безопасные детские и спортивные площадки, собственная школа и детский сад.</p>
+            <p>Объект состоит из 12-ти многоэтажных жилых домов от 4 до 12 этажей, выполненных в едином классическом стиле. Для жителей комплекса предусмотрены кладовые помещения. На территории объекта также построят школу для 1100 учащихся и детский сад для 380 малышей. Хорошую транспортную доступность ЖК «Лайково» обеспечивает близость к Красногорскому и Рублёво-Успенскому шоссе. </p>
+          </div>
+          <button class="product__text-box_btn">Показать еще</button>
+        </div>
+        <div class="zhk-content-text__right">
+          <img src="img/career.webp" alt="video img" class="zhk-content-text__right-img">
+        </div>
+      </div>
+
+      <div class="zhk-content-offers">
+        <h4 class="zhk-content-offers__title">Квартиры от 4,2 млн ₽</h4>
+        <div class="zhk-content-offers__box">
+          <div class="zhk-content-offers__item">
+            <p class="zhk-content-offers__item-title">
+              Студии
+              <span>от 4,2 млн ₽</span>
+            </p>
+            <p class="zhk-content-offers__item-value">270</p>
+          </div>
+          <div class="zhk-content-offers__item">
+            <p class="zhk-content-offers__item-title">
+              1—комнатные
+              <span>от 4,2 млн ₽</span>
+            </p>
+            <p class="zhk-content-offers__item-value">270</p>
+          </div>
+          <div class="zhk-content-offers__item">
+            <p class="zhk-content-offers__item-title">
+              2—комнатные
+              <span>от 4,2 млн ₽</span>
+            </p>
+            <p class="zhk-content-offers__item-value">270</p>
+          </div>
+          <div class="zhk-content-offers__item">
+            <p class="zhk-content-offers__item-title">
+              3—комнатные
+              <span>от 4,2 млн ₽</span>
+            </p>
+            <p class="zhk-content-offers__item-value">270</p>
+          </div>
+          <div class="zhk-content-offers__item">
+            <p class="zhk-content-offers__item-title">
+              4—комнатные
+              <span>от 4,2 млн ₽</span>
+            </p>
+            <p class="zhk-content-offers__item-value">270</p>
+          </div>
+          <div class="zhk-content-offers__item">
+            <p class="zhk-content-offers__item-title">
+              Все квартиры
+              <span>от 4,2 млн ₽</span>
+            </p>
+            <p class="zhk-content-offers__item-value">270</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <div class="zhk-plan">
+    <div class="container">
+      <div class="zhk-plan__thumb">
+        <p class="zhk-plan__thumb-title"></p>
+        <div class="zhk-plan__item">
+          <p class="zhk-plan__item-name">Комнатность</p>
+          <div class="zhk-plan__item-room">
+            <button class="zhk-plan__item-room_item">Студия</button>
+            <button class="zhk-plan__item-room_item">1</button>
+            <button class="zhk-plan__item-room_item">2</button>
+            <button class="zhk-plan__item-room_item">3</button>
+            <button class="zhk-plan__item-room_item">4+</button>
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="zhk-plan__big">
+
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <div class="zhk-speci">
+    <div class="container">
+      <h4 class="zhk-speci__title">Особенности</h4>
+      <div class="zhk-speci__grid">
+        <div class="zhk-speci__item">
+          <img src="img/speci-1.webp" alt="speci img" class="zhk-speci__item-img">
+          <p class="zhk-speci__item-name">Продуманные планировки</p>
+        </div>
+        <div class="zhk-speci__item">
+          <img src="img/speci-2.webp" alt="speci img" class="zhk-speci__item-img">
+          <p class="zhk-speci__item-name">Продуманные планировки</p>
+        </div>
+        <div class="zhk-speci__item">
+          <img src="img/speci-2.webp" alt="speci img" class="zhk-speci__item-img">
+          <p class="zhk-speci__item-name">Продуманные планировки</p>
+        </div>
+        <div class="zhk-speci__item">
+          <img src="img/speci-2.webp" alt="speci img" class="zhk-speci__item-img">
+          <p class="zhk-speci__item-name">Продуманные планировки</p>
+        </div>
+        <div class="zhk-speci__item">
+          <img src="img/speci-2.webp" alt="speci img" class="zhk-speci__item-img">
+          <p class="zhk-speci__item-name">Продуманные планировки</p>
+        </div>
+      </div>
+
+      <div class="zhk-speci__prog">
+        <a href="#" class="zhk-speci__prog-item">
+          <svg>
+            <use xlink:href="img/sprite.svg#ogon" ></use>
+          </svg>
+          <p class="zhk-speci__prog-title">Старт продаж</p>
+        </a>
+        <a href="#" class="zhk-speci__prog-item">
+          <svg>
+            <use xlink:href="img/sprite.svg#krug" ></use>
+          </svg>
+          <p class="zhk-speci__prog-title">Обмен по программе trade-in</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="sec-map">
+  <div class="container">
+    <h2 class="sec-map__title title">Работа рядом с домом</h2>
+  </div>
+  <div id="map-test" class="map"></div>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+  <script>
+    let center = [48.8866527839977,2.34310679732974];
+      function init() {
+        let map = new ymaps.Map('map-test', {
+          center: center,
+          zoom: 17
+        });
+
+        // map.controls.remove('geolocationControl'); // удаляем геолокацию
+        // map.controls.remove('searchControl'); // удаляем поиск
+        // map.controls.remove('trafficControl'); // удаляем контроль трафика
+        // map.controls.remove('typeSelector'); // удаляем тип
+        // map.controls.remove('fullscreenControl'); // удаляем кнопку перехода в полноэкранный режим
+        // map.controls.remove('zoomControl'); // удаляем контрол зуммирования
+        // map.controls.remove('rulerControl'); // удаляем контрол правил
+        // map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
+      }
+      ymaps.ready(init);
+  </script>
+</section>
+
+
+</main>
+<footer class="footer">
+	<div class="container">
+		<a href="/" class="logo">
+			<svg>
+				<use xlink:href="img/sprite.svg#footer_logo"></use>
+			</svg>
+		</a>
+		<nav class="nav">
+			<a href="" class="nav__item">Каталог недвижимости</a>
+			<a href="" class="nav__item">Ипотека</a>
+			<a href="" class="nav__item">О нас</a>
+			<a href="" class="nav__item">Карьера</a>
+			<a href="" class="nav__item">Отзывы</a>
+			<a href="" class="nav__item">Вакансии</a>
+			<a href="" class="nav__item">Прочее</a>
+		</nav>
+		<a href="" class="header__contacts">
+			Офисы и контакты
+		</a>
+	</div>
+	<div class="footer__bot">
+		<div class="container">
+			<p class="footer__policy">©2000-2022 Компания «Траст». Все права защищены. При использовании материалов гиперссылка обязательна.</p>
+			<a href="https://vk.com/" class="footer__link" target="_blank">
+				<svg>
+					<use xlink:href="img/sprite.svg#vk"></use>
+				</svg>
+			</a>
+		</div>
+	</div>
+</footer>
+<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

@@ -1,13 +1,11 @@
 .know{
-  max-width: 1280px;
+  max-width: 1300px;
+  padding: 0 10px;
+  box-sizing:border-box;
   margin: 60px auto;
   display: flex;
   flex-direction: column;
   gap: 40px;
-
-  @include media-xxl{
-    max-width: calc(100% - 40px);
-  }
 
   &__field{
     display: flex;

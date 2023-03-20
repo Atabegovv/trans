@@ -1,14 +1,13 @@
 .exclusive{
-  max-width: 1280px;
+  max-width: 1300px;
+  padding: 0 10px;
+  box-sizing:border-box;
   margin: 35px auto;
   display: flex;
   flex-direction: column;
   gap: 40px;
   position: relative;
 
-  @include media-xxl{
-    max-width: calc(100% - 40px);
-  }
 
   &__top{
     display: flex;

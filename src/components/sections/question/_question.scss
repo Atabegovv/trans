@@ -21,9 +21,7 @@
     top: 0;
     left: -100vw;
 
-    @include media-xxl{
-      max-width: calc(100% - 40px);
-    }
+   
 
     &.active{
       visibility: visible;
@@ -63,9 +61,7 @@
         flex-wrap: wrap;
         gap: 25px;
 
-        @include media-xxl{
-          justify-content: flex-end;
-        }
+        
 
         &__item{
           display: flex;
